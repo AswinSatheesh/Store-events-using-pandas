@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table border="3" >
+<tr>
+    <th width="40%"> <h4> Event Name</h4> </th>
+    <th width="40%"> <h4> Date </h4></th>
+</tr>
+<tr>
+    <td><h5> {{n}} </h5></td>
+    <td><h5> {{s }} </h5></td>
+</tr>
+ <tr>
+    <tr>
+        <td><h5> {{}} </h5></td>
+        <td><h5> {{}} </h5></td>
+    </tr>
+    
+ </tr>
+
+
+</table>
+{{ data | safe }}
+
+<!-- <h5>Entered Event is:, {{n}}</h5>
+
+<h5>The Entered date is: {{s}}</h5> -->
+
+
+{% endblock %}
+
+
